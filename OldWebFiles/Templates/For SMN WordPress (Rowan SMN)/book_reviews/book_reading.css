@@ -1,0 +1,41 @@
+
+/* Book Plugin */
+
+#book_review_options fieldset {
+	float: left;
+	margin: 0 20px 0 0;
+	padding: 1em;
+	border: 1px solid #000;
+	width: 350px;
+}
+
+#book_titlediv, #review, #bookoptions {
+  float: left;
+	clear: left;
+	padding: 0.5em;
+}
+
+#recommend, #timestamp {
+  padding: 0.4em 0.5em;
+	border: 1px solid #000;
+}
+
+#book_title, #author {
+  width: 600px;
+}
+
+#book_link, #book_image {
+  width: 500px;
+}
+
+#reviewtext {
+  width: 700px;
+	margin: 0.4em 0.2em;
+	clear: left;
+}
+
+.clear {
+  clear: both;
+	height: 1px;
+	width: 1px;
+}

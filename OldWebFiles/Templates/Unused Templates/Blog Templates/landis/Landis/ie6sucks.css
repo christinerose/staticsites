@@ -1,0 +1,28 @@
+/*  
+Theme Name: Business Class
+Theme URI: http://www.tgpo.org
+Description: A clean, professional, blue and green theme.
+Version: 1.0
+Author: tgpo
+Author URI: http://www.tgpo.org
+
+*/
+
+
+#page #leftside .boxtop { background: url('images/box-bg-top.gif') top left no-repeat; margin-bottom: 10px; padding-top: 12px; }
+#page #leftside .boxbottom { background: url('images/box-bg-btm.gif') bottom left no-repeat; padding-bottom: 11px; }
+#page #leftside .boxmiddle { background: url('images/box-bg-mid.gif') top left repeat-y; color: #fff; padding: 0 10px; text-align: left; }
+#page #rightside .notfound h3 { background: url('images/h3-bg.gif') bottom left no-repeat; color: #aeeb60; font-size: 18px; margin-bottom: 10px; padding-bottom: 5px; }
+#page #rightside .post h3 { background: url('images/h3-bg.gif') bottom left no-repeat; margin-bottom: 10px; padding-bottom: 5px; }
+#page #rightside .comments .comment-box-top { background: url('images/comment-box-top.gif') top left no-repeat; margin-bottom: 10px; padding-top: 12px; }
+#page #rightside .comments .comment-box-bottom { background: url('images/comment-box-bottom.gif') bottom left no-repeat; padding-bottom: 11px; }
+#page #rightside .comments .comment-box-middle { background: url('images/comment-box-mid.gif') top left repeat-y; color: #fff; padding: 0 10px 12px 10px; text-align: left; }
+#page #rightside .comments .comment-box-top-alt { background: url('images/comment-box-top-alt.gif') top left no-repeat; margin-bottom: 10px; padding-top: 12px; }
+#page #rightside .comments .comment-box-bottom-alt { background: url('images/comment-box-bottom-alt.gif') bottom left no-repeat; padding-bottom: 11px; }
+#page #rightside .comments .comment-box-middle-alt { background: url('images/comment-box-mid-alt.gif') top left repeat-y; color: #fff; padding: 0 10px 12px 10px; text-align: left; }
+#page #rightside .comments cite { background: url('images/h3-bg.gif') bottom left no-repeat; color: #aeeb60; float: left; font-size: 13px; font-style: normal; font-weight: bold; margin-bottom: 10px; min-width: 250px; padding-bottom: 5px; }
+#page #rightside #leavecomment .comment-box-top { background: url('images/comment-box-top.gif') top left no-repeat; margin-bottom: 10px; padding-top: 12px; }
+#page #rightside #leavecomment .comment-box-bottom { background: url('images/comment-box-bottom.gif') bottom left no-repeat; padding-bottom: 11px; }
+#page #rightside #leavecomment .comment-box-middle { background: url('images/comment-box-mid.gif') top left repeat-y; color: #fff; padding: 0 10px 12px 10px; text-align: left; }
+#page #rightside #leavecomment h3 { background: url('images/h3-bg.gif') bottom left no-repeat; color: #aeeb60; font-size: 13px; font-style: normal; font-weight: bold; margin-bottom: 10px; min-width: 250px; padding-bottom: 5px; }
+#page #rightside #leavecomment h3 { background: url('images/h3-bg.gif') bottom left no-repeat; color: #aeeb60; font-size: 13px; font-style: normal; font-weight: bold; margin-bottom: 10px; min-width: 250px; padding-bottom: 5px; }

@@ -1,0 +1,106 @@
+/*  
+Theme Name: Landis
+Theme URI: http://www.tgpo.org
+Description: A clean, professional, blue and green theme.
+Version: 1.0
+Author: tgpo
+Author URI: http://www.tgpo.org
+
+*/
+
+* { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; }
+
+body { background: #295877 url('images/bg.png') top left repeat-x; text-align: center; }
+
+#container { margin: 0 auto; width: 890px; }
+
+#header { display: block; width: 890px; }
+#header #logo { float: left; margin-top: 40px; text-align: left; }
+#header #logo a { color: #87db1a; font-size: 40px; font-weight: normal; text-decoration: none; }
+#header #logo a .alt { color: #fff; font-size: 40px; font-weight: normal; text-decoration: none; }
+#header .description { color: #a7ddff; font-size: 15px; margin-left: 10px; position: relative; top: -2px; }
+
+#header #navcontainer { float: right; margin-top: 80px; text-align: right; }
+#header #navcontainer #topnav { list-style: none; }
+#header #navcontainer #topnav .page_item { background: url('images/topnav-div.gif') top right no-repeat; display: inline; padding-left: 15px; }
+#header #navcontainer #topnav .page_item a { color: #a7ddff; font-size: 13px; font-weight: bold; margin-right: 15px; text-decoration: none; text-transform:uppercase; }
+#header #navcontainer #topnav .page_item a:hover { color: #aeeb60; }
+
+#page { clear: both; padding-top: 30px; }
+#page #leftside { float: left; width: 349px; }
+#page #leftside ul, #page #leftside ol { list-style-position:inside; }
+#page #leftside #splash { background: url('images/splash.jpg') top left no-repeat; display: block; height: 304px; width: 349px; }
+#page #leftside .boxtop { background: url('images/box-bg-top.png') top left no-repeat; margin-bottom: 10px; padding-top: 12px; }
+#page #leftside .boxbottom { background: url('images/box-bg-btm.png') bottom left no-repeat; padding-bottom: 11px; }
+#page #leftside .boxmiddle { background: url('images/box-bg-mid.png') top left repeat-y; color: #fff; min-height: 35px; padding: 0 10px; text-align: left; }
+#page #leftside .boxmiddle h2 { background: url('images/h2-bg.png') bottom left no-repeat; color: #aeeb60; font-size: 13px; margin-bottom: 10px; padding: 10px 0 5px 0; }
+#page #leftside .boxmiddle ul { font-size: 12px; list-style: none; }
+#page #leftside .boxmiddle a { color: #a7ddff; text-decoration: none; }
+#page #leftside .boxmiddle a:hover { color: #aeeb60; text-decoration: none; }
+#page #leftside .boxmiddle #searchform input { background: #1e4057; border: 1px solid #193548; color: #a7ddff; font-size: 12px; margin-top: 3px; padding:2px; }
+#page #leftside .boxmiddle #searchform #searchsubmit { background: #aeeb60; color: #333; font-weight: bold; padding:2px; width: 65px; }
+#page #leftside .boxmiddle #wp-calendar { font-size: 13px; }
+#page #leftside .boxmiddle #wp-calendar caption { color: #aeeb60; font-size: 13px; font-weight: bold; }
+
+#page #rightside { color: #fff; float: left; margin-left: 30px; text-align: left; width: 510px; }
+#page #rightside h2#tagline { font-size: 25px; margin-bottom: 35px; }
+#page #rightside h2#archive { font-size: 20px; margin-bottom: 15px; }
+#page #rightside .notfound h3 { background: url('images/h3-bg.png') bottom left no-repeat; color: #aeeb60; font-size: 18px; margin-bottom: 10px; padding-bottom: 5px; }
+#page #rightside .notfound p { font-size: 12px; }
+#page #rightside .notfound input { background: #1e4057; border: 1px solid #193548; color: #a7ddff; font-size: 12px; margin-top: 3px; padding:2px; }
+#page #rightside .notfound #searchsubmit { background: #aeeb60; color: #333; font-weight: bold; padding:2px; width: 65px; }
+
+#page #rightside .post h3 { background: url('images/h3-bg.png') bottom left no-repeat; margin-bottom: 10px; padding-bottom: 5px; }
+#page #rightside .post h3 a { color: #aeeb60; font-size: 18px; text-decoration: none; }
+#page #rightside .post .topics { color: #aeeb60; font-size: 13px; font-weight: bold; padding-bottom: 2px; }
+#page #rightside .post .topics a { color: #a7ddff; margin-left: 5px; text-decoration: none; }
+#page #rightside .post .topics a:hover { color: #aeeb60; }
+#page #rightside .post .date { color: #aeeb60; float: right; font-size: 16px; font-weight: bold; line-height: 18px; margin-left: 5px; padding-bottom: 2px; text-transform:uppercase; width: 10px; }
+#page #rightside .post .entry { font-size: 12px; min-height: 128px; }
+#page #rightside .post .entry a { color: #a7ddff; text-decoration: none; }
+#page #rightside .post .entry a:hover { color: #aeeb60; }
+#page #rightside .post p { margin-bottom: 7px; }
+#page #rightside .post .postmetadata, #page #rightside .post .reply { font-size: 12px; font-weight: bold; text-align: right; }
+#page #rightside .post .postmetadata a, #page #rightside .post .reply a{ color: #a7ddff; text-decoration: none; }
+#page #rightside .post .postmetadata a:hover, #page #rightside .post .reply a:hover{ color: #aeeb60; }
+
+#page #rightside .comments { }
+#page #rightside .comments h3 { color: #aeeb60; font-size: 15px; margin-bottom: 10px; padding-bottom: 5px; }
+#page #rightside .comments .comment-box-top { background: url('images/comment-box-top.png') top left no-repeat; margin-bottom: 10px; padding-top: 12px; }
+#page #rightside .comments .comment-box-bottom { background: url('images/comment-box-bottom.png') bottom left no-repeat; padding-bottom: 11px; }
+#page #rightside .comments .comment-box-middle { background: url('images/comment-box-mid.png') top left repeat-y; color: #fff; padding: 0 10px 12px 10px; text-align: left; }
+#page #rightside .comments .comment-box-top-alt { background: url('images/comment-box-top-alt.png') top left no-repeat; margin-bottom: 10px; padding-top: 12px; }
+#page #rightside .comments .comment-box-bottom-alt { background: url('images/comment-box-bottom-alt.png') bottom left no-repeat; padding-bottom: 11px; }
+#page #rightside .comments .comment-box-middle-alt { background: url('images/comment-box-mid-alt.png') top left repeat-y; color: #fff; padding: 0 10px 12px 10px; text-align: left; }
+#page #rightside .comments cite { background: url('images/h3-bg.png') bottom left no-repeat; color: #aeeb60; float: left; font-size: 13px; font-style: normal; font-weight: bold; margin-bottom: 10px; min-width: 250px; padding-bottom: 5px; }
+#page #rightside .comments cite a { color: #a7ddff; text-decoration: none; }
+#page #rightside .comments cite a:hover { color: #aeeb60; }
+#page #rightside .comments .comment-date { color: #fff; float: right; font-size: 12px; font-weight: bold; text-align: right; }
+#page #rightside .comments .clear { clear: right; }
+#page #rightside .comments p { font-size: 12px; margin-top: 12px; }
+#page #rightside .comments .avatar { float: left; margin: 0 7px 5px 0; }
+#page #rightside .comments a { color: #a7ddff; text-decoration: none; }
+#page #rightside .comments a:hover { color: #aeeb60; }
+
+#page #rightside #leavecomment { margin-top: 15px; }
+#page #rightside #leavecomment .comment-box-top { background: url('images/comment-box-top.png') top left no-repeat; margin-bottom: 10px; padding-top: 12px; }
+#page #rightside #leavecomment .comment-box-bottom { background: url('images/comment-box-bottom.png') bottom left no-repeat; padding-bottom: 11px; }
+#page #rightside #leavecomment .comment-box-middle { background: url('images/comment-box-mid.png') top left repeat-y; color: #fff; padding: 0 10px 12px 10px; text-align: left; }
+#page #rightside #leavecomment h3 { background: url('images/h3-bg.png') bottom left no-repeat; color: #aeeb60; font-size: 13px; font-style: normal; font-weight: bold; margin-bottom: 10px; min-width: 250px; padding-bottom: 5px; }
+#page #rightside #leavecomment h3 { background: url('images/h3-bg.png') bottom left no-repeat; color: #aeeb60; font-size: 13px; font-style: normal; font-weight: bold; margin-bottom: 10px; min-width: 250px; padding-bottom: 5px; }
+#page #rightside #leavecomment input, #page #rightside #leavecomment textarea { background: #1e4057; border: 1px solid #193548; color: #a7ddff; font-size: 12px; margin-top: 3px; padding:2px; width: 484px; }
+#page #rightside #leavecomment em { color: #aeeb60; font-size: 10px; font-style: normal; font-weight: bold; }
+#page #rightside #leavecomment .submit { text-align: right; }
+#page #rightside #leavecomment #submit { background: #aeeb60; color: #333; font-weight: bold; padding:2px; width: 115px; }
+#page #rightside #leavecomment a { color: #a7ddff; text-decoration: none; }
+#page #rightside #leavecomment a:hover { color: #aeeb60; }
+
+#page #rightside .navigation { display: block; font-size: 12px; font-weight: bold; height: 20px; }
+#page #rightside .navigation a { background: #aeeb60; border: 1px solid #193548; color: #333; display: block; font-weight: bold; padding:5px; text-decoration: none; }
+#page #rightside .navigation .alignleft { float: left; }
+#page #rightside .navigation .alignright { float: right; }
+
+#footer { clear: both; text-align: right; }
+#footer p { color: #fff; font-size: 11px; }
+#footer p a { color: #a7ddff; text-decoration: none; }
+#footer p a:hover { color: #aeeb60; }

@@ -1,0 +1,838 @@
+/*  
+Theme Name: Greenline
+Theme URI: http://www.gpsgazette.com/
+Description: Greenline is a 3 column theme with one sidebar on the right and one to the left of the content area that uses a black and green color scheme and very few images. Both sidebars are widget ready.
+Version: 1.0
+Author: GPS Gazette
+Author URI: http://www.gpsgazette.com/
+*/		
+
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+ul
+{
+list-style: none;
+}
+
+body 
+{
+font-size: 13px;
+margin: 0px;
+text-align: center;
+background: #4f4f4f;
+color: #FAFFE0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+                         /***************************************************
+                         *********************** Blogtitle **************
+                         *****************************************************/
+
+#blogtitle
+{
+width: 86%;
+height:60px;
+display: block;
+color: #DFDAC3;
+text-align: left;
+margin: 15px auto 0 auto;
+padding: 12px 0 0 0;
+background: #1f1f1f url(img/navtop.gif) bottom repeat-x;
+}
+
+
+#blogtitle a:link {
+color: #333;
+text-decoration: none;
+border: none;
+padding: 6px 15px;
+margin-left: 0;
+}
+
+#blogtitle a:visited {
+color: #333;
+text-decoration: none;
+border: none;
+font-weight: bold;
+padding: 6px 15px;
+margin-left: 0;
+}
+
+#blogtitle a:hover {
+color: #1f1f1f;
+text-decoration: none;
+padding: 6px 15px;
+margin-left: 0;
+}
+
+                         /***************************************************
+                         *********************** Container **************
+                         *****************************************************/
+#container
+{
+clear:left;
+padding:0;
+margin-left:auto;
+margin-right:auto;
+margin-top: 0;
+width: 86%;
+overflow: hidden;
+background: #333;
+}
+
+
+
+
+                         /***************************************************
+                         *********************** Left Sidebar Container *******
+                         *****************************************************/
+#leftnav
+{
+font-size: 14px;
+float: left;
+width: 180px;
+margin: 0;
+padding-top: 4px;
+margin-top: 0;
+margin-left: 5px;
+margin-bottom: 20px;
+text-align: left;
+}
+
+
+                         /***************************************************
+                         *********************** Right Sidebar Container *******
+                         *****************************************************/
+
+#rightnav
+{
+font-size: 14px;
+float: right;
+width: 180px;
+margin: 0;
+padding-top: 4px;
+margin-top: 0;
+margin-bottom: 20px;
+margin-right: 5px;
+text-align: left;
+}
+
+                         /***************************************************
+                         *********************** Content **************
+                         *****************************************************/
+#content
+{
+display: block;
+margin: 15px 195px 20px 195px;
+padding: 1em;
+padding-top: 10px;
+text-align: left;
+background: #1f1f1f;
+}
+
+
+#content ul
+{
+padding-left: 2em;
+}
+
+
+#content ul li{
+padding: 0.2em;
+list-style: square;
+}
+
+#content ul ul li{
+padding: 0.2em;
+list-style: circle;
+}
+
+
+#content ol{
+list-style-position: inside;
+padding-left: 15px;
+padding-top: 2px;
+margin-bottom: 10px;
+}
+
+#content p
+{
+padding-left: 10px;
+}
+                         /***************************************************
+                         *********************** Footer **************
+                         *****************************************************/
+
+#footwrap
+{
+clear:both;
+background: url(img/nav.gif) top repeat-x;
+color: #FAFFE0;
+padding: 5px 1em 5px 1em;
+font-weight: normal;
+}
+
+#footwrap p
+{
+display: block;
+margin-top: 8px;
+margin-bottom: 2px;
+text-align:center;
+}
+
+#footwrap a:link {
+color: #88944C;
+text-decoration: none;
+border: none;
+font-weight: bold;
+}
+#footwrap a:hover {
+color: #88944C;
+text-decoration: underline;
+border: none;
+}
+
+#footwrap a:visited:hover {
+color: #88944C;
+text-decoration: underline;
+border: none;
+}
+
+#footwrap a:visited {
+color: #88944C;
+text-decoration: none;
+border: none;
+font-weight: bold;
+}
+
+#footwrap img {
+padding: 0px 5px 0px 5px;
+}
+
+
+                         /***************************************************
+                         *********************** Left Sidebar **************
+                         *****************************************************/
+#sidebarleft
+{
+margin-bottom: 10px;
+background: none;
+padding: 0 8px  0 8px;
+}
+
+#sidebarleft li
+{
+padding-bottom: 8px;
+background: #4f4f4f;
+}
+
+#sidebarleft ul li
+{
+display: block;
+margin-left: 5px;
+padding-bottom: 2px;
+}
+
+#sidebarleft ul li ul li{
+padding-bottom: 2px;
+}
+
+#sidebarleft ul li li{
+padding: 4px 3px 2px 2px;
+}
+
+#sidebarleft a:link {
+display:block;
+color: #F5FFC1;
+text-decoration: none;
+font-weight: normal;
+}
+
+#sidebarleft a:hover {
+display:block;
+color: #C2D36C;
+}
+
+#sidebarleft a:visited:hover {
+display:block;
+color: #C2D36C;
+}
+
+#sidebarleft a:visited {
+display:block;
+color: #F5FFC1;
+text-decoration: none;
+}
+
+#sidebarleft h2 {
+color: #232D32;
+padding: 2px 8px 2px 8px;
+margin-top:14px;
+background: #88944C url(img/h2.gif) top left no-repeat;;
+border-bottom: 2px solid #1F1F1F;
+}
+
+                         /***************************************************
+                         *********************** Right Sidebar **************
+                         *****************************************************/
+
+#sidebarright
+{
+margin-bottom: 10px;
+background: none;
+padding: 0 8px  0 8px;
+}
+
+#sidebarright li
+{
+padding-bottom: 8px;
+background: #4f4f4f;
+}
+
+#sidebarright ul li
+{
+display: block;
+margin-left: 5px;
+padding-bottom: 2px;
+}
+
+#sidebarright ul li ul li{
+padding-bottom: 2px;
+}
+
+#sidebarright ul li li{
+padding: 4px 3px 2px 2px;
+}
+
+#sidebarright a:link {
+display:block;
+color: #F5FFC1;
+text-decoration: none;
+font-weight: normal;
+}
+
+#sidebarright a:hover {
+display:block;
+color: #C2D36C;
+}
+
+#sidebarright a:visited:hover {
+display:block;
+color: #C2D36C;
+}
+
+#sidebarright a:visited {
+display:block;
+color: #F5FFC1;
+text-decoration: none;
+}
+
+#sidebarright h2 {
+color: #232D32;
+padding: 2px 8px 2px 8px;
+background: #88944C url(img/h2.gif) top left no-repeat;;
+margin-top:14px;
+border-bottom: 2px solid #1F1F1F;
+}
+
+#leftnav p, #rightnav p { margin: 0 0 1em 0; }
+#content h2 { margin: 0 0 .5em 0; }
+
+
+                         /***************************************************
+                         *********************** Paragraph **************
+                         *****************************************************/
+
+p
+{
+margin-bottom: 12px;
+margin-top: 12px;
+}
+
+                         /***************************************************
+                         *********************** Blockquote ********************
+                         *****************************************************/
+
+blockquote
+{
+margin: 0px 0px 0px 30px;
+padding: 0px 25px 0px 0px;
+font-style: italic;
+color: #F5FFC1;
+border-left: 4px solid #88944C;
+}
+
+
+                         /***************************************************
+                         *********************** Post Metadata ****************
+                         *****************************************************/
+
+.postmetadata
+{
+font-size: 11px;
+width:80%;
+display:block;
+margin: 25px auto 6px auto;
+padding: 2px 8px 2px 35px;
+text-align: left;
+background: #4F4F4F;
+color:#F5FFC1;
+border-left: 4px solid #88944C;
+}
+
+#content .postmetadata
+{
+padding-left: 5px;
+}
+
+.postmetadata a:link
+{
+border: none;
+color: #F5FFC1;
+font-weight: normal;
+}
+
+.postmetadata a:hover
+{
+border: none;
+color: #F5FFC1;
+font-weight: normal;
+}
+
+.postmetadata a:visited:hover
+{
+border: none;
+color: #F5FFC1;
+font-weight: normal;
+}
+
+.postmetadata a:visited
+{
+border: none;
+color: #F5FFC1;
+font-weight: normal;
+}
+
+                         /***************************************************
+                         *********************** Links ********************
+                         *****************************************************/
+
+a:link
+{
+color: #88944C;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover
+{
+text-decoration: underline;
+}
+
+a:visited
+{
+color: #B7BF8F;
+text-decoration: none;
+font-weight: normal;
+}
+
+a:visited:hover
+{
+text-decoration: underline;
+}
+
+a img 
+{
+border:none;
+background:none;
+padding:5px;
+}
+
+#feed, #feed img a:link, #feed img a:visited
+{
+border: none;
+}
+
+
+                         /***************************************************
+                         *********************** Comments ********************
+                         *****************************************************/
+
+.commentlist
+{
+padding-left: 40px;
+padding-right: 15px;
+background: #1f1f1f;
+color: #EAEFD1;
+}
+
+.commentlist li
+{
+margin: 8px 10px 8px 15px;
+padding-left: 12px;
+list-style: none;
+background: #4f4f4f;
+margin-bottom: 2px;
+border: 1px solid #B7BF8F;
+}
+
+li.alt
+{
+background: #333333;
+border: 1px solid #B7BF8F;
+}
+
+.commentlist cite
+{
+padding: 2px 3px 1px 3px;
+}
+
+.commentlist p
+{
+padding: 5px 5px 2px 3px;
+margin-bottom: 5px;
+}
+
+.commentmetadata a:link, .commentmetadata a:hover, .commentmetadata a:visited
+{
+text-decoration: none;
+color: #C2D36C;
+}
+
+.commentnumber {
+font: italic normal 14px 'Times New Roman', Times, serif;
+margin-top: 2px;
+float:right;
+color: #B7BF8F;
+font-size: 28pt;
+}
+
+#comment
+{
+width:80%;
+}
+
+                         /***************************************************
+                         *********************** Headings**************
+                         *****************************************************/
+
+h1
+{
+font-size: 36px;
+color: #666666;
+}
+
+h2
+{
+display: block;
+font-size: 16px;
+font-weight: bold;
+padding: 5px 0 0 12px;
+margin: 5px 0 6px 0;
+text-align: left;
+}
+
+h3
+{
+display: block;
+font-size: 14px;
+font-weight: bold;
+padding: 5px 0 0 12px;
+margin: 5px 0 6px 0;
+text-align: left;
+}
+
+h3.posttitle   
+{
+font-size: 22px;
+font-weight: bold;
+padding-left: 5px;
+padding-top: 2px;
+padding-bottom: 2px;
+margin-top: 12px;
+margin-bottom: 5px;
+border-bottom: 3px solid #4F4F4F;
+background:#88944C url(img/title.gif) top left no-repeat;
+}
+
+.posttitle a:link
+{
+font-size: 22px;
+color: #333;
+font-weight: bold;
+}
+
+.posttitle a:visited
+{
+font-size: 22px;
+color: #333;
+font-weight: bold;
+}
+
+.posttitle a:hover
+{
+font-size: 22px;
+color: #1f1f1f;
+font-weight: bold;
+text-decoration: none;
+}
+
+.posttitle a:visited:hover
+{
+text-decoration: none;
+}
+
+h4
+{
+margin-top: 15px;
+font-size: 13px;
+font-weight: bold;
+padding: 5px 0 0 12px;
+margin: 5px 0 6px 0;
+text-align: left;
+}
+
+h5
+{
+margin-top: 15px;
+font-size: 12px;
+font-weight: bold;
+padding: 5px 0 0 12px;
+margin: 5px 0 6px 0;
+text-align: left;
+}
+
+
+                         /***************************************************
+                         *********************** date ********************
+                         *****************************************************/
+.date
+{
+font-size: 18px;
+float: right;
+text-transform: uppercase;
+letter-spacing: -2px;
+padding: 3px 5px 3px 5px;
+margin-top: 17px;
+text-align: center;
+color: #B7BF8F;
+}
+
+.entry
+{
+margin-bottom: 5px;
+}
+
+                         /***************************************************
+                         *********************** Contained floats fix************
+                         *****************************************************/
+.post
+{
+display: block;
+overflow:hidden;
+width:98%;
+padding-bottom: 12px;
+}
+
+                         /***************************************************
+                         *********************** Code ********************
+                         *****************************************************/
+code
+{
+display: block;
+margin: 10px 30px 0 30px;
+padding: 2px 10px 5px 10px;
+border-top: 4px solid #88944C;
+color: #B7BF8F;
+background: #4F4F4F;
+}
+
+                         /***************************************************
+                         ************ Navigation (based on Blix)**************
+                         *****************************************************/
+#navigation {
+margin-left:auto;
+margin-right:auto;
+width: 86%;
+overflow: hidden;
+height:2.7em;
+line-height:2.7em;
+background: url(img/navlink.gif) repeat-x;
+}
+
+#navigation ul {
+  margin:0;
+  padding:0;
+}
+
+#navigation li {
+  float:left;
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  white-space:nowrap;
+}
+
+#navigation li a {
+  display:block;
+  padding:0 18px;
+  font-size:0.8em;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+
+* html #navigation a {width:1%;} /* see http://www.positioniseverything.net/explorer/escape-floats.html */
+
+#navigation form {
+  float:right;
+  height:100%;
+  width:164px;
+  padding:0 15px;
+  line-height:0;
+background: url(img/navlink.gif) repeat-x;
+}
+
+#navigation form fieldset {
+  /* centering the search form could've
+  been done way more elegant but IEWin
+  and Opera refused to follow the rules */
+  margin-top:7px;
+  border:0 solid; /* Opera */
+}
+
+* html #navigation form fieldset {margin-top:7px;}
+
+#navigation #s {
+  height:1.5em;
+  width:115px;
+  margin:0 5px 0 0;
+  padding:0;
+  font-size:0.8em;
+  vertical-align:middle;
+}
+
+#navigation #searchbutton {
+  height:2em;
+  width:auto;
+  padding:0 1px;
+ /* border:1px solid;*/
+  font-size:9px;
+  letter-spacing:1px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+#navigation {
+background-color:#88944C;
+}
+
+
+#navigation a {
+color:#333333;}
+
+#navigation .selected,
+#navigation a:hover
+  {background:#B7BF8F url(img/navhover.gif) repeat-x;}
+
+#navigation form {
+  background:#88944C url(img/navlink.gif) repeat-x;
+}
+
+#navigation #s {border-color:#FFF9EA;}
+
+#navigation #searchbutton {
+  color:#333333;
+  background-color:#C2D36C;
+}
+
+.credits
+{
+margin-top: -20px;
+margin-bottom: 5px;
+padding: 0 4px 8px 4px;
+float: right;
+}
+
+
+                         /***************************************************
+                         *********************** Calendar ********************
+                         *****************************************************/
+#wp-calendar 
+{
+empty-cells: show;
+margin: 10px auto 0;
+width: 160px;
+}
+
+#wp-calendar #next a 
+{
+padding-right: 10px;
+text-align: right;
+}
+
+#wp-calendar #prev a 
+{
+padding-left: 10px;
+text-align: left;
+}
+
+#wp-calendar td 
+{
+padding: 2px 0;
+text-align: center;
+}
+
+#wp-calendar th 
+{
+text-align: center;
+}
+
+#wp-calendar caption 
+{
+text-align: center;
+width: 100%;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+img 
+{	
+border:none;
+}
+
+
+                         /***************************************************
+                         ***************** Previous and Next Posts************
+                         *****************************************************/
+
+.alignright {
+text-align: right;
+}
+
+.alignleft {
+text-align: left
+}
+
+.navigation {
+display: block;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 0;
+}
+
+
+                         /***************************************************
+                         *********************** Smileys ********************
+                         *****************************************************/
+
+.wp-smiley
+{
+padding: 0;
+}

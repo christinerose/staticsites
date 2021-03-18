@@ -1,0 +1,319 @@
+* { 
+padding : 0;
+margin : 0;
+} 
+body { 
+font-family : Verdana, Arial, Helvetica, sans-serif;
+font-size : 13px;
+background-image : url(images/bgpage.gif);
+background-repeat : repeat-x;
+background-color : #000000;
+} 
+#wrapper { 
+margin : 5px auto 5px auto;
+width : 790px;
+} 
+img { 
+padding : 2px;
+border : 1px solid #caff7a;
+} 
+img.floatTL { 
+float : left;
+margin-right : 10px;
+margin-bottom : 5px;
+margin-top : 10px;
+margin-left : 5px;
+} 
+img.floatTR { 
+float : right;
+margin-left : 7px;
+margin-bottom : 0;
+margin-top : -2px;
+margin-right : 10px;
+} 
+.clear { 
+clear : both;
+} 
+#header { 
+color : #333;
+width : 790px;
+float : left;
+padding : 0;
+height : 100px;
+background : url(images/header791.gif) no-repeat;
+} 
+.logo { 
+margin-top : 15px;
+margin-right : 10px;
+float : right;
+background-image : url(images/gnome-globe.png);
+background-repeat : no-repeat;
+background-position : right 0%;
+height : 70px;
+} 
+.logo h1#lineone { 
+font-size : 1.7em;
+font-weight : lighter;
+font-family : helvetica, arial, sans-serif;
+padding-top : 10px;
+padding-left : 5px;
+color : #8cbbff;
+border : none;
+top : 0;
+left : 14px;
+letter-spacing : -1px;
+margin-right : 70px;
+margin-top : 5px;
+} 
+.logo h1#lineone span { 
+color : #006699;
+} 
+.logo h2#linetwo { 
+padding-left : 5px;
+font-size : 0.9em;
+font-family : helvetica, arial, sans-serif;
+text-transform : none;
+padding-left : 35px;
+color : #006699;
+} 
+#navigation { 
+float : left;
+width : 790px;
+color : #333;
+margin : 0 0 0 0;
+background : #fff;
+} 
+.menu { 
+margin-left : 10px;
+background : #fff url(images/navbar.gif) no-repeat;
+width : 770px;
+height : 40px;
+} 
+.menu ul { 
+list-style : none;
+padding : 7px 0 10px 0;
+margin : 0;
+text-align : center;padding: 12px 0em 10px 0em;} 
+.menu li { 
+padding : 0 1em 0 1em;
+display : inline;
+} 
+.menu li a { 
+color : #002870;
+font-weight : bold;
+text-decoration : none;
+font-size : 1em;
+} 
+.menu li a:hover { 
+color : #e78229;
+text-decoration : none;
+} 
+#leftcolumn { 
+color : #333;
+background : #fff;
+margin : 0 0 0 0;
+padding : 10px;
+min-height : 525px;
+width : 200px;
+float : left;
+} 
+#leftbox, #leftbox-2 { 
+width : 190px;
+min-height : 136px;
+color : #ffffff;
+padding : 0;
+margin : 0;
+float : left;
+display : inline;
+background-image : url(images/graybox-l.png);
+background-repeat : no-repeat;
+} 
+#leftbox-2 { 
+margin-top : 15px;
+} 
+#leftboxbottom, #leftboxbottom-2 { 
+height : 15px;
+width : 190px;
+float : left;
+display : inline;
+background-image : url(images/graybox-s.png);
+background-repeat : no-repeat;
+} 
+.col-l { 
+width : 160px;
+float : left;
+padding : 10px 0 8px 10px;
+} 
+.col-l p { 
+margin : 11px 0 0 0;
+padding : 0;
+margin : 11px 0 0 10px;
+color : #767676;
+} 
+.col-l a { 
+color : #e78229;
+} 
+.col-l ul { 
+display : list-item;
+list-style-type : none;
+} 
+.col-l li { 
+padding-top : 5px;
+padding-bottom : 3px;
+border-bottom : 1px dotted #336699;
+} 
+.col-l li a { 
+color : #336699;
+text-decoration : none;
+} 
+.col-l li a:hover { 
+color : #8eb88f;
+} 
+#rightcolumn { 
+float : right;
+color : #333;
+background : #fff;
+margin : 0 0 0 0;
+padding : 0;
+height : 545px;
+width : 570px;
+display : inline;
+} 
+blockquote { 
+margin-top : 14px;
+margin-left : 20px;
+margin-right : 20px;
+margin-bottom : 15px;
+text-align : justify;
+color : #5376a3;
+} 
+#doublebox { 
+margin-top : 5px;
+margin-bottom : 10px;
+width : 565px;
+} 
+.content_right { 
+display : inline;
+float : right;
+width : 200px;
+text-align : justify;
+margin-right : 5px;
+margin-top : 0;
+padding-right : 5px;
+padding-top : 0;
+line-height : 1.5em;
+background : url(images/gradboxs.jpg) no-repeat;
+} 
+.content_rightbot { 
+height : 11px;
+width : 200px;
+background : url(images/gradboxsbottom.jpg) no-repeat;
+float : left;
+display : inline;
+} 
+.content_left { 
+margin : 0 auto;
+display : inline;
+float : left;
+width : 350px;
+text-align : justify;
+line-height : 1.5em;
+background : url(images/gradboxb.jpg) no-repeat;
+} 
+.content_leftbot { 
+height : 11px;
+width : 350px;
+background : url(images/gradboxbbot.jpg) no-repeat;
+float : left;
+display : inline;
+} 
+.content_left p, .content_right p { 
+padding : 5px;
+} 
+.content_left a { 
+float : right;
+padding-right : 5px;
+color : #ec845b;
+} 
+.content_right a { 
+float : right;
+padding-right : 5px;
+color : #ec845b;
+} 
+.content_left h3 { 
+padding-left : 5px;
+padding-top : 10px;
+margin-bottom : 5px;
+color : #ec845b;
+font-size : 1.2em;
+} 
+.content_right h3 { 
+padding-left : 5px;
+padding-top : 10px;
+margin-bottom : 5px;
+color : #ec845b;
+font-size : 1.2em;
+} 
+.clear { 
+clear : both;
+} 
+h4 { 
+color : #80a0ea;
+} 
+#triplebox { 
+width : 560px;
+min-height : 136px;
+background : url(images/bluebox.jpg) no-repeat;
+font-size : 0.75em;
+color : #e1e1e1;
+padding : 0;
+float : left;
+display : inline;
+margin-top : 20px;
+margin-left : 0;
+color : #878787;
+} 
+.col { 
+width : 160px;
+float : left;
+margin-left : 1em;
+padding : 5px 0 8px 0;
+margin-top : 1.2em;
+text-align : justify;
+background-repeat : repeat-x;
+margin-left : 2em;
+margin-top : 1.3em;
+} 
+.col p { 
+margin : 11px 0 0 0;
+padding : 5px;
+} 
+#tripleboxbottom { 
+height : 11px;
+width : 560px;
+background-image : url(images/blueboxbottom.jpg);
+margin-bottom : 5px;
+} 
+#footer { 
+width : 770px;
+clear : both;
+height : 40px;
+background : url(images/footer790.gif) no-repeat bottom;
+margin : 0 0 0 0;
+padding-left : 10px;
+padding-right : 10px;
+} 
+#footer p { 
+margin : 0;
+padding-top : 5px;
+text-align : center;
+line-height : normal;
+font-size : xx-small;
+} 
+#footer a { 
+text-decoration : underline;
+color : #e78229;
+} 
+#footer a:hover { 
+text-decoration : none;
+} 

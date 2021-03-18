@@ -1,0 +1,78 @@
+#container {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	padding: 0px;
+	width: 510px;
+	margin: 0 auto;
+}
+#header {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 3em;
+	color: #333333;
+	text-align: right;
+	padding: 5px;
+}
+.subhead {
+	color: #990000;
+}
+.solgan {
+	font-size: 16px;
+	color: #999999;
+}
+#contentcontainer {
+	background-image: url(images/postit.jpg);
+	background-position: center top;
+	height: 550px;
+	background-repeat: no-repeat;
+}
+#footer {
+	width: 500px;
+	border-top: solid 1px #000;
+	margin: 0 auto;
+	text-align: right;
+	padding-top: 5px;
+}
+#sidebar {
+	width: 175px;
+	padding-top: 100px;
+	padding-left: 20px;
+	float: left;
+	font-size: 0.8em;
+}
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.4em;
+	color: #990000;
+	border-bottom: solid 1px #000;
+}
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	color: #990000;
+	display: block;
+	border-bottom: solid 1px #000;
+}
+#contentmain {
+	width: 265px;
+	float: right;
+	padding-top: 100px;
+	padding-right: 40px;
+	font-size: 0.8em;
+}
+#nav {
+	list-style-image: url(images/bullet.gif);
+}
+#nav a{
+	text-decoration: none;
+	font-weight: bold; 
+}
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */

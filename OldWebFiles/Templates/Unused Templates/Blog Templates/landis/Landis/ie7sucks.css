@@ -1,0 +1,13 @@
+/*  
+Theme Name: Business Class
+Theme URI: http://www.tgpo.org
+Description: A clean, professional, blue and green theme.
+Version: 1.0
+Author: tgpo
+Author URI: http://www.tgpo.org
+
+*/
+
+
+body { background: #204c6b url('images/bg.png') top left repeat-x; text-align: center; }
+#page #rightside .comments .comment-date { color: #fff; float: right; font-size: 12px; font-weight: bold; margin-bottom: 16px; text-align: right; }

@@ -1,0 +1,480 @@
+/*  
+Theme Name: blackmagic
+Theme URI: http://www.themes.iwebnet.org/
+Description: WP Theme  blackmagic  by <a href="http://www.themes.iwebnet.org/">i Web Net</a>. blackmagic is 2 columns adsense & widget ready theme with Right sidebar in black color. 
+Author: iWebNet
+Author URI: http://www.iwebnet.org/
+
+	This theme was designed and built by iWebNet
+                The CSS, XHTML and design is released under GPL
+                http://www.opensource.org/licenses/gpl-license.php
+*/
+body {
+	font: 75%/150% "Trebuchet MS", Tahoma, Arial;
+	color: #ffffff;
+	
+                background: #000000 ;
+	margin: 0px;
+	padding: 50px 0px 10px 0px;
+}
+ a {
+	color: #8caa31 ;
+	text-decoration: none;
+                
+}
+a:visited {
+	color: #8caa31;
+	text-decoration: none;
+                
+}
+a:hover {
+	color: #35ad25;
+	text-decoration: none;
+}
+img {
+	border: 1px solid #8caa31;
+
+}
+p {
+	padding: 0px 0px 15px;
+	margin: 0px;
+}
+h1 {
+	margin:0px;
+	padding-left: 0px;
+	height: 60px;
+	font: bold 36px/100% "Trebuchet MS", Tahoma, Arial;
+	color: #d9d351;
+}
+h1 a, h1 a:visited{
+	color: #d9d351;
+	text-decoration: none;
+}
+h1 a:hover{
+	color: #d9d351;
+	text-decoration: none;
+}
+h2 {
+	color: #d7c525;
+	margin: 0px 0px 2px;
+	border-bottom: 1px dotted #d9d351;
+	letter-spacing: -1px;
+	font: normal 190%/100% "Trebuchet MS", Tahoma, Arial;
+	padding-bottom: 3px;
+}
+h2 a, h2 a:visited {
+	color: #d7c525;
+	text-decoration: none;
+}
+h2 a:hover {
+	color: #EAB43B;
+	text-decoration: none;
+}
+h3 {
+	font: normal 140%/100% "Trebuchet MS", Tahoma, Arial;
+	color: #d7c525;
+	margin: 10px 0px 5px;
+}
+h4 {
+	font: normal 130%/100% "Trebuchet MS", Tahoma, Arial;
+	color: #d7c525;
+	margin: 10px 0px 5px;
+}
+form {
+	margin:0px;
+	padding:0px;
+}
+#page {
+	margin: 0px auto;
+	width: 950px;
+	background: #000000 ;
+                
+}
+/* header area */
+#header {
+	background: #000000 url(img/header.jpg) no-repeat;
+	height: 225px;
+	position: relative;
+}
+#headerlogo {
+	position: relative;
+	padding: 20px 0px 0px 600px;
+	height: 60px;
+}
+#headerlogo .description{
+	position: absolute;
+	left: 610px;
+	bottom: 3px;
+	color: #d9d351;
+	font-size: 16px;
+}
+#nav {
+	list-style: none;
+	margin: 0px;
+	position: absolute;
+                right: 5px;
+	top: -27px;
+}
+#nav li {
+	float: left;
+	margin-left: 2px;
+}
+#nav .current_page_item a:visited{
+	color: #8caa31;
+	text-decoration: none;
+}
+#nav .page_item a{
+	color: #8caa31;
+	text-decoration: none;
+	background: #000000;
+	padding: 5px 15px;
+	font: bold 14px/100% Arial, Helvetica, sans-serif;
+	border: 1px solid #8caa31;
+	display: block;
+}
+ #nav .current_page_item a,#nav .page_item a:hover {
+	color: #d7c525;
+                text-decoration: none;
+	background: #000000 ;
+	padding: 5px 15px;
+	font: bold 14px/100% Arial, Helvetica, sans-serif;
+	border :1px dotted #d7c525;
+	display: block;
+}
+/* content  */
+#content {
+	padding: 10px 10px 25px 13px;
+	float: left;
+	width: 692px;
+	overflow: hidden;
+}
+.post {
+	clear:both;
+	padding-top: 15px;
+}
+
+.post-date {
+	width: 45px;
+	height: 56px;
+                color: #149f01;
+                float:left;
+	
+}
+.post-month {
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #FADEA2;
+	text-align: center;
+	display:block;
+	line-height: 11px;
+	padding-top: 2px;
+	margin-left: -3px;
+}
+.post-day {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #8caa31;
+	text-align: center;
+	display:block;
+	line-height: 18px;
+	padding-top: 2px;
+	margin-left: -3px;
+}
+.entry {
+	float:right;
+	width: 640px;
+}
+.post-cat {
+	background: #000000;
+	padding-left: 20px;
+	float:left;
+	font-size: 95%;
+	color: #149f01;
+}
+.post-comments {
+	background: #000000;
+	padding-left: 20px;
+	float: right;
+	font-size: 95%;
+}
+.post-calendar {
+	background: #000000;
+	padding-left: 20px;
+	float: right;
+	font-size: 95%;
+	color: #149f01;
+}
+.post-content {
+	clear: both;
+	padding-top: 10px;
+}
+.navigation {
+	clear: both;
+	padding: 10px 0px;
+}
+.navigation a, .navigation a:visited {
+	color: #8caa31;
+}
+.previous-entries a {
+	float: left;
+	padding-left: 18px;
+	background: url(img/arrowleft.gif) no-repeat left center;
+}
+.next-entries a {
+	float: right;
+	padding-right: 18px;
+	background: url(img/arrowright.gif) no-repeat right center;
+}
+
+/* comments  */
+#comments, #respond {
+	border-bottom: 1px dotted #d9d351;
+	padding: 10px 0 5px 0;
+	clear: both;
+}
+.commentlist {
+	margin: 10px 0px;
+	padding-left: 20px;
+	line-height: 130%;
+}
+.commentlist li{
+	padding: 5px 10px;
+}
+.commentlist .alt {
+	background: #464f06;
+}
+.commentlist cite, .commentlist cite a, .commentlist cite a:visited {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 120%;
+	color: #FADEA2;
+}
+.commentlist small {
+	margin-bottom: 5px;
+	display: block;
+	font-size: 87%;
+}
+#commentform {
+	margin-top: 10px;
+	font: 110% Arial, Helvetica, sans-serif;
+}
+#commentform p {
+	padding: 6px 0px;
+	margin: 0px;
+}
+#commentform label{
+	color: #d9d351;
+	font-size: 87%;
+}
+#commentform input{
+	width: 200px;
+	background:#000000;
+	border: 1px solid #8caa31;
+	padding: 3px;
+	margin-top: 3px;
+                color: #8caa31;
+}
+#commentform textarea{
+	width: 515px;
+	height: 115px;
+	background:#000000;
+	border: 1px solid #8caa31;
+	padding: 2px;
+	margin-top: 3px;
+                color: #8caa31;
+}
+#commentform textarea:focus, #commentform input[type="text"]:focus {
+	background: #000000;
+}
+#commentform #submit{
+	background: #000000 ;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color: #8caa31;
+	border:1px solid #8caa31;	
+                float:right;
+	width: 144px;
+	height: 28px;
+	cursor: pointer;
+}
+/*sidebar */
+#sidebar {
+	float: right;
+	padding: 10px 0px 25px 13px;
+	width: 220px;
+	color: #d9d351;
+	overflow: hidden;
+}
+/*sidebar title  */
+#sidebar h3, #sidebar .sidebartitle{
+	font: normal 140%/100% "Trebuchet MS", Tahoma, Arial;
+	color: #8caa31;
+	margin: 20px 0px 2px;
+	border-bottom: 1px dotted #818520;
+}
+/*sidebar text styles */
+#sidebar a, #sidebar a:visited{
+	color: #d9d351;
+                font-size: 12px;
+	text-decoration: none;
+}
+#sidebar a:hover{
+	color: #d9d351;
+                font-size: 12px;
+	text-decoration: none;
+}
+/*sidebar list level1 */
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+}
+#sidebar ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+/*sidebar list level2 */
+#sidebar ul li ul {
+	padding:0;
+	margin: 0;
+}
+#sidebar ul li ul li{
+	padding: 0px 2px 0px 10px;
+	border: none;
+}
+/*sidebar list level3 */
+#sidebar ul li ul li ul li{
+	padding: 1px 0 1px 0px;
+	border: none;
+}
+/*blogroll widget */
+ul.list-blogroll li{
+	background: url(img/arrow.gif) no-repeat !important;
+	padding-left: 22px !important;
+}
+/*meta  widget*/
+ul.list-meta li{
+	background: url(img/arrow.gif) no-repeat !important;
+	padding-left: 22px !important;
+}
+/*rss widget */
+ul.list-rss li{
+	background: url(img/arrow.gif) no-repeat !important;
+	padding-left: 22px !important;
+}
+/*category  widget */
+ul.list-cat li, li.bar_categories li{
+	background: url(img/arrow.gif) no-repeat !important;
+	padding-left: 22px !important;
+}
+/*recent  widget  */
+ul.list-rec li, li.bar_comments ul li {
+	background: url(img/arrow.gif) no-repeat !important;
+	padding-left: 22px !important;
+}
+/*archives widget */
+ul.list-archives li, li.bar_archives li{
+	background: url(img/arrow.gif) no-repeat !important;
+	padding-left: 22px !important;
+}
+/*pages widget */
+ul.list-page li, li.bar_pages li, li.bar_recent_entries li{
+	background: url(img/arrow.gif) no-repeat !important;
+	padding-left: 22px !important;
+}
+/*sub-pages widget */
+ul.list-page li ul li, li.bar_pages li ul li{
+	background: url(img/arrow.gif) no-repeat !important;
+	padding-left: 15px !important;
+}
+/*calendar bar widget */
+li.bar_calendar td {
+	padding: 1px 7px;
+}
+/*text bar */
+.textbar {
+	padding-top: 5px;
+}
+}
+#searchform br {
+	display: none;
+}
+#searchform #s {
+	width: 135px;
+	height: 22px;
+	padding: 4px 5px 0px 5px;
+	border: 1px solid #8caa31;
+	background: #000000;
+	margin-right: 2px;
+	color: #8caa31;
+	font-weight: normal;
+}
+/* search form button - to specify button only use input[type="submit"] */
+#searchform input {
+	background: #000000;
+	border: 1px solid #8caa31;
+	width: 67px;
+	height: 26px;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color: #8caa31;
+	vertical-align: middle;
+}
+
+/* page close */
+#close {
+	clear: both;
+	background: #ffffff;
+	color: #ffffff;
+	font-size: 95%;
+	line-height: 130%;
+	padding-bottom: 0px;
+}
+/* footer bar */
+#footer {
+	margin: 0px auto;
+                width: 950px;
+                background: #221d1d ;
+                color: #d7c525;
+                height: 30px;
+                font-size: 12px;
+	line-height: 100%;
+                border-top: 3px solid #8caa31;
+                border-bottom: 2px solid #8caa31;
+}
+#footer a, #credit a:visited {
+                margin-top: 8px;
+	color: #d7c525;
+}
+/* alignments */
+.center {
+	text-align: center;
+}
+img.center, img[align="center"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignleft {
+	float: left;
+}
+img.alignleft, img[align="left"] {
+	float:left;
+	margin: 2px 10px 5px 0px;
+}
+.alignright {
+	float: right;
+}
+img.alignright, img[align="right"] {
+	float:right;
+	margin: 2px 0px 5px 10px;
+}
+.clear {
+	clear:both;
+}
+hr.clear {
+	clear:both;
+	visibility: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+

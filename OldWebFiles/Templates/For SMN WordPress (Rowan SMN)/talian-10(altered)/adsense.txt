@@ -1,0 +1,8 @@
+Talia is a 3 column adsense and widget ready wordpress theme. One block sidebar adsense and 2 block comment page adsense.
+
+please insert and change your adsense spec in sidebar.php and .also 2 adsense in comments.php
+
+thanks and enjoy...
+
+Note: Any issues please contact me at arun@va4business.com or post your comments at www.va4business.com/business 
+....

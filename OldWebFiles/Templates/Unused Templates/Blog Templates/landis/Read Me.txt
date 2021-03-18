@@ -1,0 +1,9 @@
+Landis 1.0 by tgpo | http://www.tgpo.org
+
+
+Simply copy the Landis folder into your themes folder and switch to it in the admin panel.
+
+Under the Presentation Admin Panel you'll see the Landis Settings page.  From there you can add the custom tags to Landis.
+
+
+Special Thanks to Marc Hodges ( http://sevennine.net/ ) for WP Audioscrobbler plugin, which was used as the baseline for the custom tags functions.

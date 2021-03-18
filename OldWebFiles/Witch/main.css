@@ -1,0 +1,233 @@
+/* Basics CSS*/
+
+body {
+ margin: 40px 0;
+ color: #adabe0;
+ background:#04052a;
+ padding:0;
+ font: 12px verdana, sans-serif;
+ line-height:18px;
+ }
+
+p {text-align:justify;}
+
+img {border:0px;}
+
+a:link {
+color: #d2d21a;
+text-decoration: none;
+font-weight:bold;
+}
+a:visited {
+text-decoration: none;
+color: #d2d21a;
+font-weight:bold;
+}
+a:hover {
+text-decoration: none;
+color: #fff;
+font-weight:bold;
+}
+a:active {
+text-decoration: none;
+color: #d2d21a;
+font-weight:bold;
+}
+
+h1 {
+ font-size: 1.5em;
+}
+h1 span {display:none;}
+
+h2 {
+ font-size: 1.3em;
+}
+
+h2 span {display:none;}
+
+#outer {
+ width: 1000px;
+ margin: 0 auto;
+ background: #1a1b6b;
+ }
+
+#header {
+ padding-top: 184px;
+ background: #fff url(images/headerlogo.jpg) no-repeat;
+ }
+
+#header h2 {
+ color: #032605;
+ background: url(images/navbgwitch.jpg);
+ font-weight: bold;
+ text-align: left;
+ margin: 0 0 0 0px;
+ width:1000px; 
+ }
+ 
+div.nav {
+  width: 100%;  
+}
+
+ul#nav {
+	float:left;
+	text-align: center;
+	padding:3px 0 3px 0;
+	margin:0 auto;
+	width:100%;
+    text-transform:uppercase;
+    background: url(images/navbg.jpg);
+	border-top:1px solid #040000;
+    border-bottom:1px solid #040000;
+
+}
+ul#nav li {
+	margin: 0 0 0 25px;
+	padding:0 10px;
+	font-weight:bold;
+	list-style:none;
+	float:left;
+	font: 14px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+ul#nav li a {
+	display:block;
+	padding:5px;
+}
+
+.nav:link {
+   color:#032203;
+	text-decoration: none;
+}
+.nav:visited {
+	text-decoration: none;
+	color:#032203;
+}
+.nav:hover {
+	text-decoration: none;
+	color:#fff;
+}
+.nav:active {
+	text-decoration: none;
+	color:#032203;
+}
+
+#left {
+ float:left;
+ width:426px;
+ padding:0 0 0 10px;
+ background: #1a1b6b url(images/left.jpg);
+ background-repeat:no-repeat;
+ text-align: center;
+}
+
+#content {
+ float: right;
+ width: 528px;
+ padding: 1.0em 1.5em 1.5em 0em;
+ }
+#content h2 {
+ color:#FFFED5;
+ margin:0px 0 -10px 0;
+}
+
+#content h2 span {display:none;}
+
+#entryalt {
+  background:#1A1B6B;
+  margin: 0px;
+  padding: 15px 15px;
+  text-align:justify;
+}
+#entry {
+  background:#04052a;
+  margin: 0px;
+  padding: 15px 15px;
+  text-align:justify;
+}
+
+
+#leftcontent {
+width:400px;
+margin-top:176px;
+padding:5px;
+color: #27903E;
+text-align:right;
+}
+
+#footer {
+ clear: both;
+ color: #FFFED5;
+ background:#5f60ba;
+ font-size: 0.8em;
+ text-align: center;
+ margin: 0 0 0 -1px;
+ width:1000px;
+ border:solid #000000;	
+ border-width:1px 1px 0px 1px;
+ }
+
+.footer:link {
+   color:#d2d21a;
+	text-decoration: none;
+}
+.footer:visited {
+	text-decoration: none;
+	color:#d2d21a;
+}
+.footer:hover {
+	text-decoration: none;
+	color:#fff;
+}
+.footer:active {
+	text-decoration: none;
+	color:#d2d21a;
+}
+
+
+/* Neutralize styling: 
+   Elements we want to clean out entirely: */
+html, body, form, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+/* Neutralize styling: 
+   Elements with a vertical margin: */
+h1, h2, h3, h4, h5, h6, p, pre,
+blockquote, ul, ol, dl, address {
+	margin: 1em 0;
+	padding: 0;
+	text-align:justify;
+}
+
+/* Apply left margin:
+   Only to the few elements that need it: */
+li, dd, blockquote {
+	margin-left: 0px;
+}
+
+/* Miscellaneous conveniences: */
+form label {
+	cursor: pointer;
+}
+fieldset {
+	border: none;
+}
+
+/* Form field text-scaling */
+input, select, textarea {
+	font-size: 100%;
+}
+
+fieldset {float:left;border:none;}
+form#contact {float:center;}
+fieldset input[type="submit"] {margin:0 0 0 145px;clear:both;}
+
+fieldset label {float:left;text-align:right;margin-right:500px;margin-bottom:5px;width:130px;}
+fieldset input[type="text"], select, textarea, input[type="submit"] {float:left;margin:-22px 0 5px 145px;}
+fieldset label#description_label {text-align:left;}
+
+#twitter {color:#adabe0;font-size:10px;width:340px;margin-left:22px;}
+#twitter ul {list-style-type: none;}

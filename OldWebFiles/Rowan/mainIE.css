@@ -1,0 +1,10 @@
+#left {
+ float:left;
+ width:426px;
+ padding:0 0 0 0px;
+ background: #27903E url(images/left.jpg);
+ background-repeat:no-repeat;
+ text-align: center;
+}
+
+#twitter ul {margin-left:-50px;}

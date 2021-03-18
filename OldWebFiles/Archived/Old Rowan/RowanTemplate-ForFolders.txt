@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+<meta name="verify-v1" content="DGqZdlVZ+vCNGt+WGc/EbEwoNJFOn8TFQHuNjQLMTss=" /> 
+<meta name="robots" content="INDEX, FOLLOW"/>
+<META name="y_key" content="53fa563830ad0274" > 
+<meta name="description" content="description"/>
+<meta name="keywords" content="keywords"/> 
+<meta name="author" content="author"/> 
+<META NAME="Description" CONTENT="YA Fantasy Book, Rowan of the Wood.  A young boy releases an ancient wizard who possesses him to seek his inhuman bride." />
+<META NAME="Keywords" CONTENT="fantasy, wizard, magic, redwood forest, wand, april, cullen, rowan, wood, woods, california, young adult, YA, harry potter" />
+
+<link rel="stylesheet" type="text/css" href="../default.css" media="screen"/>
+<title>Rowan of the Wood</title>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2588022-3";
+urchinTracker();
+</script>
+</head>
+
+<body>
+
+<div class="container">
+
+	<div class="gfx"><span></span></div>
+
+	<div class="top">
+
+		<div class="navigation">
+			<a href="../index.html">home</a>
+			<a href="../story.html">the story</a>
+			<a href="../characters.html">the characters</a>
+			<a href="../authors.html">the authors</a>
+			<a href="../store.html">the store</a>
+		</div>
+
+		<div class="pattern"><span></span></div>
+
+		<div class="header">
+			<h1>&nbsp;</h1>
+					</div>
+
+		<div class="pattern"><span></span></div>
+
+	</div>
+
+	<div class="content">
+
+		<div class="spacer"></div>
+
+		<div class="item">
+
+			<div class="title">NAME OF PAGE</div>
+			<div class="metadata">&nbsp;</div>
+
+			<div class="body">
+
+
+
+
+<P>
+
+</div>
+
+<div class="divider"><span></span></div>
+
+<div class="body">
+				
+				<h2>A Blue Moose Press Publication</h2>
+				
+				<p>Blue Moose Press, a division of Blue Moose Films, LLC, proudly presents its premiere novel <B><I>Rowan of the Wood</B></I>.  Advance author-signed copies and other merchandise are available in our <a href="../store.html">store</A>.  Get your copy online today!  In stores nationwide on April 22, 2008.
+</p>
+
+<p>For a limited time, the entire book is available for free in a PDF eBook: <BR><A href="../mailto:ebook@rowanofthewood.com?subject=FREE Rowan of the Wood Ebook Link Request">Get the Link</A>
+			</div>
+
+		</div>
+
+        </div>
+
+				
+	<div class="footer">
+
+		&copy; 2007 <a href="../http://www.bluemoosepress.com">bluemoosepress.com</a> Valid <a href="../http://jigsaw.w3.org/css-validator/check/referer">CSS</a> &amp; <a href="../http://validator.w3.org/check?uri=referer">XHTML</a>. Template design by <a href="../http://arcsin.se">Arcsin</a>
+
+	</div>
+
+</div>
+
+</body>
+
+</html>

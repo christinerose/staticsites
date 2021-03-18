@@ -1,0 +1,43 @@
+.text6px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 6px; }
+.text7px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 7px; }
+.text8px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 8px; }
+.text9px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 9px; }
+.text10px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 10px; }
+.text11px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; }
+.text12px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px; }
+.text13px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 13px; }
+.text14px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 14px; }
+.text15px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 15px; }
+.text16px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 16px; }
+.text17px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 17px; }
+.text18px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 18px; }
+.text19px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 19px; }
+.text20px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 20px; }
+.text21px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 21px; }
+.text22px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 22px; }
+.text23px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 23px; }
+.text24px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 24px; }
+.text25px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 25px; }
+.text26px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 26px; }
+.text27px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 27px; }
+.text28px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 28px; }
+.text29px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 29px; }
+.text30px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 30px; }
+.text31px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 31px; }
+.text32px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 32px; }
+.text33px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 33px; }
+.text34px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 34px; }
+.text35px { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 35px; }
+
+
+a:link.pls-dont-edit { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; color: #f9f9f9; text-decoration: none; font-style: italic; font-weight: bold;}
+a:hover.pls-dont-edit { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; color: #f9f9f9; text-decoration: underline; }
+a:visited.pls-dont-edit { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; color: #f9f9f9; text-decoration: none; }
+a:active.pls-dont-edit { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; color: #ffffff; text-decoration: underline; }
+
+a:link.gl3nnx { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 18px; color: #E1B72C; text-decoration: none; font-weight: bold;}
+a:hover.gl3nnx { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 18px; color: #007CC3; text-decoration: none;  font-weight: bold;}
+a:visited.gl3nnx { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 18px; color: #E1B72C; text-decoration: none; font-weight: bold; }
+a:active.gl3nnx { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 18px; color: #E1B72C; text-decoration: none; font-weight: bold; }
+
+hr { margin: 0px; padding: 0px; }
