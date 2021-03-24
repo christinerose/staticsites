@@ -1,19 +1,21 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: I CAN EDIT THIS .MD FILE IN GITHUB! SO COOL!
+title: Christine Marie Rose
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### International Petsitter Extraordiniare
+Christine Marie Rose is a tech nomad, animal lover, and tap dancer. Between October 2015 and January 2018, she traveled the world petsitting in the UK, EU, and USA, while working remotely. She loves to go horseback riding in the English Lake District, snowshoeing in The Alps, hiking in the Scottish Highlands, and sea kayaking in the Hebrides. She now lives in Portland, Oregon with her partner, Brian, and their four cats. Still, she travels to Europe every year.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### Award-Winning Author
+Christine is also the award-winning author of the 5-book *[Rowan of the Wood](https://amzn.to/3cwdu1n)* fantasy series, which she co-wrote (2008 – 2014) with her [ex-husband Ethan](http://ethanorose.wordpress.com/). Her 2010 Amazon.com bestselling book *[Publishing and Marketing Realities for the Emerging Author](https://christinerose.wordpress.com/publishing-marketing-realities/)* helped writers feel successful by educating them about the publishing industry and marketing their book during a tumultuous time in publishing. Since then, she’s been dabbling in memoir and toying with the idea of writing a play.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### Accomplished Artist
+Christine is an accomplished fine artist with some work available on [Fine Art America](http://fineartamerica.com/profiles/4-christine-rose.html). She’s mostly worked in acrylics, but she’s been increasing her skills with [watercolor](https://christinerose.wordpress.com/2016/05/26/watercolor-my-world/) over the past few years. She takes beautiful photos of her travels, which you can see through her [Instagram](https://www.instagram.com/professor.rose/) feed.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+### Gimme Gimme Chocolate
+She needs copious amounts of dark chocolate, frothy mochas, and silent solitude.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+### Links to All The Things
+Christine’s [Online Writing Portfolio](https://christinerose.journoportfolio.com/) on JournoPortfolio
+Connect with Christine: [email](christineandethanrose@gmail.com) * [twitter](https://www.instagram.com/watercolormyworld/)
+Instagram [Travel Photos](https://www.instagram.com/professor.rose/) * Watercolor Art
